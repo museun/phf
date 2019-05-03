@@ -1,0 +1,10 @@
+[package]
+name = "phf"
+version = "0.1.0"
+authors = ["museun <museun@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+derive = { path = "../derive" }
+internal = { path = "../internal" }
+rand = "0.6.5"
